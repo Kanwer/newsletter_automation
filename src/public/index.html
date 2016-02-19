@@ -9,7 +9,7 @@
 
     <link href='css/googleApiCss' rel='stylesheet' type='text/css'>
     <link href="css/content" rel="stylesheet" type="text/css" />
-
+    <link href="css/autosuggest.css" rel="stylesheet" type="text/css"/>
     <link href="css/contentBuilder" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -58,14 +58,14 @@
             snippetFile: 'css/snippets.html'
 
         });
-        loadIcons();
+      loadIcons();
 
     });
-    $('body').on('click','#contentarea',function(){
+   $('body').on('click','#contentarea',function(){
         loadIcons();
     });
 
-    function loadIcons(){
+   function loadIcons(){
         $('.cb-icon-move').html('<img src="images/move.png">');
         $('.cb-icon-plus').html('<b>+</b>');
         $('.cb-icon-code').html('<b><></b>');
