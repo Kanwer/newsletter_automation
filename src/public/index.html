@@ -10,15 +10,15 @@
     <link href='css/googleApiCss' rel='stylesheet' type='text/css'>
     <link href="css/content" rel="stylesheet" type="text/css" />
     <link href="css/autosuggest.css" rel="stylesheet" type="text/css"/>
-    <link href="css/contentBuilder" rel="stylesheet" type="text/css" />
+    <link href="contentBuilder" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
 <br />
 <br />
 <br />
-
-<div id="contentarea" class="container">
+<input type="hidden" name="product_id" id="product_id">
+<div id="contentarea" class="container" style="margin-left: 300px">
 
     <!-- This is just a sample content -->
 
@@ -29,18 +29,14 @@
         </div>
     </div>
     <div class="row clearfix">
-        <div class="column half">
-            <img src="images/success.png">
-        </div>
+
         <div class="column half">
             <p>Welcome to the website of the 91mobiles.</p>
             <p>We serve freshly brewed gadgets.</p>
         </div>
     </div>
     <div class="row clearfix">
-        <div class="column full">
-            <p>A truly run business, we aim to create a cosy and friendly atmosphere in the cafe.</p>
-        </div>
+
     </div>
 
 </div>
@@ -48,7 +44,7 @@
 <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="js/jquery-ui.min.js" type="text/javascript"></script>
 <script src="js/contentBuilder.js" type="text/javascript"></script>
-
+<script src="js/autoSuggest.js" type="text/javascript"></script>
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
 
